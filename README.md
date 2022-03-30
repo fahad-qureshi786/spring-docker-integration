@@ -34,3 +34,13 @@ docker build -t spring-boot-docker.jar .
 ```
 docker run -p 9090:8080 spring-boot-docker.jar
 ```
+# Docker HUB
+```
+    Docker HUB is like a repository same as git repository where we will store docker image. 
+        Tag Image
+    docker tag <image-name> <docker-id>/<image-name>
+        Push image to Docker HUB
+        It might take some time will pull image from docker and will push to docker hub
+    docker push <docker-id>/<image-name>
+    docker pull <docker-id>/<image-name>
+```
