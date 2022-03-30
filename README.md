@@ -28,3 +28,9 @@ docker build -t spring-boot-docker.jar .
 ```
     docker image ls
 ```
+
+# Run docker image
+
+```
+docker run -p 9090:8080 spring-boot-docker.jar
+```
